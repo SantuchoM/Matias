@@ -1,0 +1,180 @@
+html {
+  scroll-snap-type: y proximity;
+  scroll-snap-stop: always;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  width: 100vw;
+  max-width: 1080px;
+  background-color: rgba(240, 240, 240, 1);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+h1{
+  text-align: center;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5em;
+  color: #30332E;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 3em;
+  color: #30332E;
+}
+
+p{
+  font-weight: 300;
+  opacity: 1;
+  font-size: 2.5em;
+  line-height: 2;
+  color: #30332E;
+}
+
+
+
+
+#portada{
+  padding: 5%;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #F1F7ED;
+  z-index: 1000;
+  padding-top: 10%;
+}
+
+#introduccion{
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding: 5%;
+  z-index: 1000;
+  border-radius: 25px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+#conclusion{
+  padding: 5%;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #F1F7ED;
+  z-index: 1000;
+  padding-top: 10%;
+}
+
+#matias{
+  border-width: 20px;
+  border-color: rgba(241,247,237,1);
+  border-radius: 50%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+
+#espacio{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+}
+
+
+#contenedor{
+  position: relative;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#viaje{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1000;
+}
+
+#viaje > div{
+	opacity: 1;
+}
+
+#viaje div.graph-scroll-active{
+	opacity: 1;
+}
+
+.paradas{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100vh;
+  padding: 5%;
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+#mapaElevador{
+  margin-top: 5%;
+  width: 90%;
+  left: 5%;
+  position: fixed;
+  z-index: 1;
+}
+
+.oceano{
+  fill: rgba(241,247,237,1);
+  stroke: rgba(171,176,176,1);
+  stroke-width: 0px;
+}
+
+.pais{
+  fill: rgba(255,210,200,1);
+  stroke: rgba(241,247,237,1);
+  stroke-width: 0.5px;
+}
+
+.rutas{
+  fill: rgba(255,255,255,0);
+  stroke: #30332E;
+  stroke-width: 3px;
+  opacity: 0;
+}
+
+
+.labels{
+  font-weight: 300;
+  opacity: 0.3;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  fill: #30332E;
+  opacity: 0;
+}
+
+#LEtapa01{
+  opacity: 1;
+}
+#CEtapa01{
+  opacity: 1;
+}
+#Angola{
+  fill: #FFA69E;
+}
+
+.cities{
+  opacity: 0;
+}
+
+.atmosfera{
+  stroke: rgba(255,255,255,1);
+  stroke-width: 5px;
+}
